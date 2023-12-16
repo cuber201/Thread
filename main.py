@@ -12,6 +12,7 @@ hotkeys_using = 0
 mouse_using= 0
 mouse_idle= 0
 stop = Event()
+
 def update_csv():
     with open("result.csv", encoding='utf-8', mode="+a") as file:
         csv_writer = csv.writer(file, delimiter=",", lineterminator="\r")
